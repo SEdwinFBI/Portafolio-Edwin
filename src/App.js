@@ -18,7 +18,7 @@ function App() {
       <div className=""> {/* cuerpo */}
         <Inicio />
         <SobreMi />
-        <Habilidades />
+        <Habilidades /> {/** */}
         <Proyectos />
   <Contactarme />
       </div> {/*fin Cuerpo*/}
