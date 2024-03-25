@@ -20,7 +20,7 @@ const Proyectos = () => {
 
           <Card imagenUrl='https://i.pinimg.com/736x/20/d8/fb/20d8fb8426416fa8ed15749a7a821d16.jpg'
             titulo='Green tree'
-            descripcion='Este fue una pagina que realize para el proyecto de seminario para mi graduacion como perito contador - creado a finales de 2022 '
+            descripcion='Este fue una pagina que realize para el proyecto de seminario para mi graduacion como Perito Contador - creado a finales de 2022 '
             href='https://green-tree2022.netlify.app/'
             tech='HTML5, CSS3' />
 
