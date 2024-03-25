@@ -13,14 +13,14 @@ function App() {
 
   return (
     <body className={Style}>
-      <NavBar  /> {/* Menus*/}
+      <NavBar /> {/* Menus*/}
       {/*//se uso container porque estamos usando bootrap, entonces lo que hace es indicar que es el contenedor de todo*/}
       <div className=""> {/* cuerpo */}
         <Inicio />
         <SobreMi />
-        {/*<Habilidades />
+        {/* <Habilidades />*/}
         <Proyectos />
-  <Contactarme />*/ }
+        {/*<Contactarme />*/}
       </div> {/*fin Cuerpo*/}
     </body>
 

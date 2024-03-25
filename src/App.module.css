@@ -11,7 +11,7 @@ body{
 /*centramos y damos tamaño al hero*/
 section{ 
     min-height: 100vh;
-    padding: 9rem 10% 3rem;
+    padding: 9rem 10% 3rem; /*con esto automaticamente le damos un margen como un contenedor */
 
   
     align-items: center;
@@ -165,4 +165,17 @@ span{
     }
   }
 
- 
+#carta{
+
+        background-color: rgb(33, 38, 41);
+        color: wheat
+      
+    
+        
+}
+#carta img {
+     object-fit:cover;
+    height: 15rem;
+  
+
+}
