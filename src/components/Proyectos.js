@@ -29,13 +29,6 @@ const Proyectos = () => {
             href='https://sedwinfbi.github.io/programaya/'
             tech='HTML5, CSS3' />
 
-
-          <Card imagenUrl='https://cdn5.dibujos.net/dibujos/pintados/201603/calculadora-solar-colegio-10377919.jpg'
-            titulo='Mi primier proyecto'
-            descripcion='Este fue uno de los primer proyectos que realize, fue una calculadora basica pero funcional - creado a mediados de 2022 '
-            href='https://edwinbxix.netlify.app/seccion/calculadora'
-            tech='HTML5, CSS3, JAVASCRIPT' />
-
           <Card imagenUrl='https://i.pinimg.com/736x/20/d8/fb/20d8fb8426416fa8ed15749a7a821d16.jpg'
             titulo='Green tree'
             descripcion='Este fue una pagina que realize para el proyecto de seminario para mi graduacion como Perito Contador - creado a finales de 2022 '
@@ -47,6 +40,12 @@ const Proyectos = () => {
             descripcion='Este fue una pagina que realize para mi proyecto de emprendimiento - creado a finales de 2022 '
             href='https://stik-lamp.netlify.app/'
             tech='HTML5, CSS3' />
+
+<Card imagenUrl='https://cdn5.dibujos.net/dibujos/pintados/201603/calculadora-solar-colegio-10377919.jpg'
+            titulo='Mi primier proyecto'
+            descripcion='Este fue uno de los primer proyectos que realize, fue una calculadora basica pero funcional - creado a mediados de 2022 '
+            href='https://edwinbxix.netlify.app/seccion/calculadora'
+            tech='HTML5, CSS3, JAVASCRIPT' />
         </div> {/*fin columnas y filas*/}
       </div>{/*fin  parte 1*/}
       <div>{/*inicio parte 2*/}
