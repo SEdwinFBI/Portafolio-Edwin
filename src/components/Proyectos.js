@@ -10,8 +10,26 @@ const Proyectos = () => {
         <h1 className='text-center'>Portafolio de proyectos </h1>
       </div>
       <div className='p1'>  {/*inicio parte 1*/}
-        <h2 className='text-center'>Primeros proyectos</h2>
+        <h2 className='text-center'>proyectos basicos</h2>
         <div className='row row-cols-1 row-cols-sm-3 '> {/*inicio columnas y filas*/}
+
+        <Card imagenUrl='https://summa.es/blog/wp-content/uploads/2018/09/iStock-865230556-1280x720.jpg'
+            titulo='Diseño y Grabacion'
+            descripcion='Pagina web de un estudio de diseño '
+            href='https://sedwinfbi.github.io/dise-oygrabaciones/'
+            tech='HTML5, CSS3, Javascript' />
+        <Card imagenUrl='https://phantom-elmundo.unidadeditorial.es/2246744589a364769c37ad17084dffd7/f/jpg/assets/multimedia/imagenes/2023/08/21/16926502279891.jpg'
+            titulo='Producciones Juvenil'
+            descripcion='Pagina web sobre una productora que se dedica transmisiones y videos '
+            href='https://sedwinfbi.github.io/juvenil/'
+            tech='HTML5, CSS3' />
+            <Card imagenUrl='https://www.grupodigital.eu/blog/wp-content/uploads/2019/11/gamer-decorative-illustration-flat-design_23-2148250394-e1574340136197.jpg'
+            titulo='Programa Ya!'
+            descripcion='Sitio web sobre servicios de programadores'
+            href='https://sedwinfbi.github.io/programaya/'
+            tech='HTML5, CSS3' />
+
+
           <Card imagenUrl='https://cdn5.dibujos.net/dibujos/pintados/201603/calculadora-solar-colegio-10377919.jpg'
             titulo='Mi primier proyecto'
             descripcion='Este fue uno de los primer proyectos que realize, fue una calculadora basica pero funcional - creado a mediados de 2022 '
