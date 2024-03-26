@@ -32,6 +32,13 @@ background-image:
 radial-gradient(at 46% 61%, hsla(188,51%,32%,0.31) 0px, transparent 50%),
 radial-gradient(at 2% 58%, hsla(293,48%,16%,1) 0px, transparent 50%);
 }
+
+.section_proyectos{
+    background-color: rgba(21, 53, 140, 1);
+background-image: radial-gradient(circle, rgba(21, 53, 140, 1) 6%, rgba(25, 25, 39, 1) 75%);
+}
+
+
 .section_contacto{
     background-color: aqua;
 }

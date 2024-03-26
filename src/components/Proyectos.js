@@ -5,7 +5,7 @@ import Card from './Card';
 
 const Proyectos = () => {
   return (
-    <section className='' id='works'>
+    <section className={estilos.section_proyectos} id='works'>
       <div>
         <h1 className='text-center'>Portafolio de proyectos </h1>
       </div>
