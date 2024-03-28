@@ -20,12 +20,12 @@ const Proyectos = () => {
             tech='HTML5, CSS3, Javascript' />
           <Card imagenUrl='https://phantom-elmundo.unidadeditorial.es/2246744589a364769c37ad17084dffd7/f/jpg/assets/multimedia/imagenes/2023/08/21/16926502279891.jpg'
             titulo='Producciones Juvenil'
-            descripcion='Pagina web sobre una productora que se dedica transmisiones y videos '
+            descripcion='Pagina web sobre una productora que se dedica transmisiones y video. -No Responsivo '
             href='https://sedwinfbi.github.io/juvenil/'
             tech='HTML5, CSS3' />
           <Card imagenUrl='https://www.grupodigital.eu/blog/wp-content/uploads/2019/11/gamer-decorative-illustration-flat-design_23-2148250394-e1574340136197.jpg'
             titulo='Programa Ya!'
-            descripcion='Sitio web sobre servicios de programadores'
+            descripcion='Sitio web sobre servicios de programadores- -No Responsivo '
             href='https://sedwinfbi.github.io/programaya/'
             tech='HTML5, CSS3' />
 
