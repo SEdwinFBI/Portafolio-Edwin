@@ -18,10 +18,10 @@ const Inicio = () => {
         </p>
         <div className={Style.btn} >
           <a className='col' href="https://drive.google.com/file/d/1lx_QxmUxS4ottMKH51pzxlk-BzgGsIQW/view?usp=drive_link" target='blank'>
-            <button className='btn btn-primary '>Descargar CV</button>
+            <button className={Style.btn} >Descargar CV</button>
           </a>
           <a  className='col' href="https://wa.link/tg4f95" target='blank'>
-            <button className='btn btn-success '>Whatsapp</button>
+            <button className={Style.btn}>Whatsapp</button>
           </a>
         </div>
       </div>

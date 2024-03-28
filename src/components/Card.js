@@ -21,7 +21,7 @@ const Card = (Props) => {
           <p className="card-text">{Props.descripcion}</p>
           <h5 className="card-title">Tecnologias utilizadas</h5>
           <p className="card-text">{Props.tech}</p>
-          <a href={Props.href} className="btn btn-primary" target='blank'>Ir al proyecto</a>
+          <a href={Props.href} className="btn btn-primary" id={estilos.butt} target='blank'>Ir al proyecto</a>
         </div>
     </div>
   </div>
