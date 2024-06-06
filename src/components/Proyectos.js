@@ -9,16 +9,30 @@ const Proyectos = () => {
       <div>
         <h1 className='text-center'>Portafolio de proyectos </h1>
       </div>
-      <div className='p1'>  {/*inicio parte 1*/}
-        <h2 className='text-center'>proyectos basicos</h2>
-        <div className='row row-cols-1 row-cols-sm-3 '> {/*inicio columnas y filas*/}
 
+      <div>{/*inicio parte 2*/}
+        <h2 className='text-center'>Proyectos con React js y Boostrap</h2>
+        <div className='row row-cols-1 row-cols-sm-3 '>{/*inicio columnas y filas*/}
 
           <Card imagenUrl='https://static.vecteezy.com/system/resources/previews/019/045/797/non_2x/owl-graphic-clipart-design-free-png.png'
             titulo='Movie MDEE'
             descripcion='Aplicacion para ver Peliculas, con el uso de la api de themoviebd '
             href='https://sedwinfbi.github.io/pelis-prueba/'
             tech='Vite, Boostrap, React js, api the moviebd' />
+
+          <Card imagenUrl='https://res.cloudinary.com/dte7upwcr/image/upload/v1/blog/blog2/carrito-de-compras-ecommerce/carrito-de-compras-ecommerce-img_header.jpg'
+            titulo='Carrito de compras'
+            descripcion='Simulador de carrito de compras(tienda) en desarrollo'
+            href='https://sedwinfbi.github.io/carrito-de-compras-tienda-/'
+            tech='Vite, Boostrap, React js, Json de productos' />
+
+        </div>{/*fin columnas y filas*/}
+      </div>{/*fin parte 2*/}
+
+      <div className='p1'>  {/*inicio parte 1*/}
+        <h2 className='text-center'>proyectos basicos</h2>
+        <div className='row row-cols-1 row-cols-sm-3 '> {/*inicio columnas y filas*/}
+
 
           <Card imagenUrl='https://summa.es/blog/wp-content/uploads/2018/09/iStock-865230556-1280x720.jpg'
             titulo='Diseño y Grabacion'

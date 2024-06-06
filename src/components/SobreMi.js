@@ -13,7 +13,7 @@ const SobreMi = () => {
         <span className={Style.circulo}></span>
       </div>
       <div className={Style.info_about}>
-        <h3>Back end Trainee</h3>
+        <h3>Back end Junior</h3>
         <p className='container'>Estudiante de Ingenieria en sistemas de informacion y ciencias de la Computacion con un fuerte interés en la programación y el desarrollo de software.
           Capacidad para aprender nuevas tecnologías rápidamente y trabajar en equipo.
            Buscando la oportunidad de aplicar mis habilidades y contribuir al desarrollo de proyectos emocionantes,
