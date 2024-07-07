@@ -8,6 +8,7 @@ import Style from './App.module.css';
 
 
 
+
 function App() {
 
 
@@ -16,7 +17,9 @@ function App() {
       <NavBar /> {/* Menus*/}
       {/*//se uso container porque estamos usando bootrap, entonces lo que hace es indicar que es el contenedor de todo*/}
       <div className=""> {/* cuerpo */}
+
         <Inicio />
+       
         <SobreMi />
         {/* <Habilidades />*/}
         <Proyectos />

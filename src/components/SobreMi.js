@@ -9,7 +9,9 @@ const SobreMi = () => {
         Sobre <span>mi</span>
       </h2>
       <div className={Style.img_about}>
+        <div data-aos="zoom-out">
         <img className={Style.img} src={ImgSobreMi} alt="imagen sobre mi" />
+        </div>
         <span className={Style.circulo}></span>
       </div>
       <div className={Style.info_about}>

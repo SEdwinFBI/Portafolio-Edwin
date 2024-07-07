@@ -28,8 +28,8 @@ const Pc = () =>{
 const Card = (Props) => {
 
   return (
-    <div className='col mb-3  '>
-      <div className="card" id={estilos.carta}>
+    <div className='col mb-3  '  >
+      <div className="card" id={estilos.carta} >
         <img src={Props.imagenUrl} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{Props.titulo}</h5>

@@ -1,13 +1,16 @@
 import React from 'react'
 import Style from '../App.module.css'
 
+
 const Inicio = () => {
   return (
     <section id='hero' className={Style.section_hero} >
+        <div id="particles-js" className={Style.particles}></div>
       <div className={Style.hero_contenido}>
         <h1>Hola, soy  
           <br/>
           <span> Edwin Baquiax</span> <span className={Style.tildeo}>&#160;</span></h1>
+       
           
         <div className={Style.animacion}>
           <h3>

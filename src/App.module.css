@@ -1,4 +1,8 @@
+#root{
+    --resplandoCard: aqua;
+  
 
+}
 body{
    background-color: rgb(33, 38, 41);
     color: #ffffff;
@@ -18,16 +22,22 @@ section{
 
 }
 /**/
+
 .section_hero{
-    /*background-color: rgb(33, 38, 41); */
-    background-color:hsla(225,40%,8%,1);
-background-image:
-radial-gradient(at 21% 13%, hsla(188,43%,38%,0.31) 0px, transparent 50%),
-radial-gradient(at 91% 39%, hsla(293,46%,10%,1) 0px, transparent 50%);
+    /* 
+    background-image: radial-gradient(at 21% 13%, hsla(188,43%,38%,0.31) 0px, transparent 50%),
+    radial-gradient(at 91% 39%, hsla(293,46%,10%,1) 0px, transparent 50%);
+    background-color: #101648; */
+    background-color: rgb(15, 31, 119);
+ 
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%236195cc' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%232b52aa' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%235b7bc6' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%232844a3' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%235161bf' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2324369c' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%234546b8' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%231e2796' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23332ab1' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2316178f' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%231300aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23080088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 .section_about{
     /*background-color: var(--bg-about);*/
-    background-color:hsla(220,53%,17%,1);
+    background-color: rgb(15, 31, 119);
 background-image:
 radial-gradient(at 46% 61%, hsla(188,51%,32%,0.31) 0px, transparent 50%),
 radial-gradient(at 2% 58%, hsla(293,48%,16%,1) 0px, transparent 50%);
@@ -35,9 +45,15 @@ radial-gradient(at 2% 58%, hsla(293,48%,16%,1) 0px, transparent 50%);
 
 .section_proyectos{
     background-color: rgba(21, 53, 140, 1);
-background-image: radial-gradient(circle, rgba(21, 53, 140, 1) 6%, rgba(25, 25, 39, 1) 75%);
+background-image: radial-gradient(circle, rgba(21, 53, 140, 1) 6%, rgb(13, 13, 66) 75%);
 }
-
+/*monstroueo*/
+.monster{
+    background-color: black;
+}
+.mons{
+    z-index: 99;
+}
 
 .section_contacto{
     background-color: aqua;
@@ -211,7 +227,9 @@ span{
   
 
 }
-
+#carta:hover{
+    filter: drop-shadow(0 0 10px  rgb(12, 101, 202));
+}
 #butt{
     
    

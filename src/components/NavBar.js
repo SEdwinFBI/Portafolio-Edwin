@@ -22,6 +22,7 @@ const NavBar = () => {
               <li class="nav-item"> <h2>Edwin Baquiax</h2>
               </li>
               <li className="nav-item"><a className="nav-link" href="#hero">Inicio</a></li>
+              
               <li className="nav-item"><a className="nav-link" href="#sobremi">Sobre mi</a></li>
 
               {/*<li className="nav-item"><a className="nav-link" href="#skills">Habilidades</a></li>*/}
