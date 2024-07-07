@@ -40,14 +40,14 @@ const Proyectos = () => {
         <h2 className='text-center'>proyectos basicos</h2>
         <div className='row row-cols-1 row-cols-sm-3 '> {/*inicio columnas y filas*/}
 
-        <div data-aos={efectoScroll}data-aos-duration="2000">{/*div */}
+        <div data-aos={efectoScroll} data-aos-duration="2000">{/*div */}
         <Card imagenUrl='https://summa.es/blog/wp-content/uploads/2018/09/iStock-865230556-1280x720.jpg'
             titulo='Diseño y Grabacion'
             descripcion='Pagina web de un estudio de diseño '
             href='https://sedwinfbi.github.io/dise-oygrabaciones/'
             tech='HTML5, CSS3, Javascript' />
           </div>{/*div */}
-          <div data-aos={efectoScroll}data-aos-duration="2000">{/*div */}
+          <div data-aos="fade-up" data-aos-duration="2000">{/*div */}
           <Card imagenUrl='https://phantom-elmundo.unidadeditorial.es/2246744589a364769c37ad17084dffd7/f/jpg/assets/multimedia/imagenes/2023/08/21/16926502279891.jpg'
             titulo='Producciones Juvenil'
             descripcion='Pagina web sobre una productora que se dedica transmisiones y video. -No Responsivo '
