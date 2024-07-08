@@ -4,14 +4,27 @@
 
 }
 body{
-   background-color: rgb(33, 38, 41);
+   /*background-color: rgb(33, 38, 41);*/
+   background-color: rgb(15, 31, 119);
     color: #ffffff;
     --main-color: rgb(12, 147, 226);
     --bg-color: rgb(33, 38, 41);
     --bg-about:  rgb(34, 44, 51);
 }
 
-
+#navBar{
+    background-color:var(--main-color);
+    
+    color:white;
+    
+}
+#navBar2{
+    backdrop-filter:blur(5px);
+}
+.NavBar_h1{
+    
+    color:white;
+}
 /*centramos y damos tamaño al hero*/
 section{ 
     min-height: 100vh;
