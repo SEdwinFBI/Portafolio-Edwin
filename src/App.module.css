@@ -64,10 +64,10 @@ body{
     .devImg{
         position: relative;
         z-index: 98;
-        margin-left: 60%;
-        margin-top: -280%;
+        margin-left: 80%;
+        margin-top: -240%;
          
-        width: 8rem;
+        width: 5rem;
        
     }   
 }
