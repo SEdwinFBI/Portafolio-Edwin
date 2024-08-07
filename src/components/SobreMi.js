@@ -5,6 +5,7 @@ import ImgSobreMi from '../img/1995515.png';
 const SobreMi = () => {
   return (
     <section id='sobremi' className={Style.section_about} >
+
       <h2 className={Style.texto_about}>
         Sobre <span>mi</span>
       </h2>
@@ -15,13 +16,12 @@ const SobreMi = () => {
         <span className={Style.circulo}></span>
       </div>
       <div className={Style.info_about}>
-        <h3>Back end Junior</h3>
-        <p className='container'>Estudiante de Ingenieria en sistemas de informacion y ciencias de la Computacion con un fuerte interés en la programación y el desarrollo de software.
-          Con capacidad para aprender nuevas tecnologías rápidamente y trabajar en equipo.
-           Empeze desde 2022 aprendiendo autodidactamente, ya que ha sido uno de mis sueños desde pqueño y me encuentro 
-           buscando la oportunidad de aplicar mis habilidades y contribuir al desarrollo de proyectos emocionantes,
-            Estoy dedicado a aprender y crecer continuamente. Mi ética de trabajo es sólida y
-           estoy abierto a nuevas oportunidades que me permitan expandir mis habilidades y conocimientos.
+        <h3>Desarrollador de Software</h3>
+        <p className='container'> Soy un estudainte de Ing. en sistemas y ciencias de la computacion,
+          desde que tengo memoria siempre me ha gustado todo sobre informatica. Soy alguien autodidacta, 
+          eh venido aprendiendo y haciendo proyectos desde 2022, tengo la capacidad de aprender rapido y
+          actualmente busco la primera oportunidad para desarrollarme en este area, no cuento con mucha
+          experiencia pero si con una gran pasion por programacion.
         </p>
       </div>
     </section>

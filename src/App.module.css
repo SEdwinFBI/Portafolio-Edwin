@@ -7,24 +7,71 @@ body{
    /*background-color: rgb(33, 38, 41);*/
    background-color: rgb(15, 31, 119);
     color: #ffffff;
-    --main-color: rgb(12, 147, 226);
+    --main-color: rgb(12, 219, 226);
     --bg-color: rgb(33, 38, 41);
     --bg-about:  rgb(34, 44, 51);
 }
 
 #navBar{
-    background-color:var(--main-color);
-    
+    display: flex;
+    position: fixed;
+    z-index: 99;
+
+    margin-left: 2%;
+    margin-top: 10px;
+
+    background-color:rgba(32, 173, 255, 0.418);
+    backdrop-filter:blur(10px);
+    border-radius: 10px;    
     color:white;
-    
+
+    width: 96%;
+    min-height: 4.5rem; 
 }
-#navBar2{
-    backdrop-filter:blur(5px);
-}
-.NavBar_h1{
-    
+
+
+
+
+#navDirA{
+    font-size: 22px;
+ padding-left: 30px;
+    font-weight: 400;
     color:white;
+   text-decoration: none;
 }
+#navDirA:hover{
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--main-color);
+   text-decoration: none;
+}
+
+.devImg{
+    position: relative;
+    z-index: 98;
+    margin-left: 70%;
+    margin-top: -40%;
+     
+    width: 30rem;
+   
+}   
+.devImgSrc{
+    
+    width: 5rem;
+}  
+
+@media (max-width: 550px){
+    .devImg{
+        position: relative;
+        z-index: 98;
+        margin-left: 70%;
+        margin-top: -170%;
+         
+        width: 10rem;
+       
+    }   
+}
+
 /*centramos y damos tamaño al hero*/
 section{ 
     min-height: 100vh;
@@ -98,8 +145,8 @@ background-image: radial-gradient(circle, rgba(21, 53, 140, 1) 6%, rgb(13, 13, 6
  color: #1D9AF2;
  background-color: #292D3E;
  border: 1px solid #1D9AF2;
- border-radius: 4px;
- padding: 15px 18px 30px 15px;
+ border-radius: 30px;
+ padding: 16px 18px 45px 17px;
  cursor: pointer;
  height: 32px;
  font-size: 15px;
@@ -109,6 +156,10 @@ background-image: radial-gradient(circle, rgba(21, 53, 140, 1) 6%, rgb(13, 13, 6
  outline: none;
  background-position: center;
  transition: background 0.8s;
+
+
+
+
 }
 
 .btn button:hover{
@@ -121,6 +172,7 @@ background-image: radial-gradient(circle, rgba(21, 53, 140, 1) 6%, rgb(13, 13, 6
     background-size: 100%;
     transition: background 0s;
   }
+
 
 .about{
     display: flex;
@@ -206,6 +258,7 @@ span{
 }
 
 .info_about p{
+    text-align: justify;
     font-size: 1.3rem;
     margin: 2rem 0 3rem;
 }
@@ -246,7 +299,7 @@ span{
 #butt{
     
    
-    box-shadow: 0 0 4px #62daff;
+    box-shadow: 0 0 4px #44d3ff;
     outline: none;
     background-position: center;
     transition: background 0.8s;
