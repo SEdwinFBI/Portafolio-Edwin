@@ -49,10 +49,10 @@ body{
 .devImg{
     position: relative;
     z-index: 98;
-    margin-left: 70%;
+    margin-left: 65%;
     margin-top: -40%;
      
-    width: 30rem;
+    width: 27rem;
    
 }   
 .devImgSrc{
