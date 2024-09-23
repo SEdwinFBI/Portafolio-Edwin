@@ -23,7 +23,7 @@ const Inicio = () => {
         <p>Estudiante de Ingenieria en Sistemas de Informacion y Ciencias de la Computacion
         </p>
         <div className={Style.btn} >
-          <a className='col' href="https://drive.google.com/file/d/1lx_QxmUxS4ottMKH51pzxlk-BzgGsIQW/view?usp=drive_link" target='blank'>
+          <a className='col' href="https://drive.google.com/file/d/1qcVG05YjiTG7-NTY3UP_2d7twXmrW91z/view?usp=drivesdk" target='blank'>
             <button className={Style.btn} >Descargar CV</button>
 
           </a>
