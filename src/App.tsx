@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <body className={Style}>
+    <body >
       <NavBar /> {/* Menus*/}
       {/*//se uso container porque estamos usando bootrap, entonces lo que hace es indicar que es el contenedor de todo*/}
       <div className=""> {/* cuerpo */}
