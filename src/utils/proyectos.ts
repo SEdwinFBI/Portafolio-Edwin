@@ -31,7 +31,7 @@ export const proyectos: proyectosProps[]=[
         proyectosDesarrollados: [
             {
                 id:23,
-                imagenUrl:"https://drive.google.com/file/d/1vDYVTzSJv9iU27oOfxs8jrhxw240Nkh6/view?usp=drive_link",
+                imagenUrl:"src/assets/proy/logocoopenoj.jpg",
                 titulo:"Cooperativa Coopenoj",
                 descripcion:"En Desarrollo Sitio web Oficial de Cooperativa Coopenoj R.L.",
                 href:"https://coopenoj.netlify.app/",
