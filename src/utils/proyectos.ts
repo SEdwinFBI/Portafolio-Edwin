@@ -35,7 +35,7 @@ export const proyectos: proyectosProps[]=[
                 titulo:"Cooperativa Coopenoj",
                 descripcion:"En Desarrollo Sitio web Oficial de Cooperativa Coopenoj R.L.",
                 href:"https://coopenoj.netlify.app/",
-                tech:"React js, TypeSctipt, Material UI, Boostrap, React js",
+                tech:"React js, TypeSctipt, Material UI, Boostrap, vite",
             }
             ,
             {
