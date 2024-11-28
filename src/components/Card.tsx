@@ -19,7 +19,7 @@ const Card: React.FC<Props> = ({
   return (
     <div className="col mb-3  ">
       <div className="card" id={estilos.carta}>
-        <img src={imagenUrl} className="card-img-top" alt="..." />
+        <img src={imagenUrl} className="card-img-top" alt={titulo} />
         <div className="card-body">
           <h5 className="card-title">{titulo}</h5>
           <p className="card-text">{descripcion}</p>

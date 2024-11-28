@@ -31,7 +31,7 @@ export const proyectos: proyectosProps[]=[
         proyectosDesarrollados: [
             {
                 id:23,
-                imagenUrl:"src/assets/proy/logocoopenoj.jpg",
+                imagenUrl:"https://scontent.fgua6-2.fna.fbcdn.net/v/t39.30808-6/415487599_1095224225011074_2893497106584418821_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=E0piObxJtbIQ7kNvgEassu5&_nc_zt=23&_nc_ht=scontent.fgua6-2.fna&_nc_gid=Asnagcfo0PPaVZZ0ypNYKIy&oh=00_AYAZ1i7dj8dkTKzjDUOLyvcleh1ZH2WT_CbN4-gIIKQ3kA&oe=674EBA3C",
                 titulo:"Cooperativa Coopenoj",
                 descripcion:"En Desarrollo Sitio web Oficial de Cooperativa Coopenoj R.L.",
                 href:"https://coopenoj.netlify.app/",
