@@ -1,10 +1,12 @@
-interface proyecto {
+export interface proyecto {
     id:number;
     imagenUrl: string;
     titulo: string;
     descripcion: string;
     tech: string;
     href: string;
+    api?:boolean;
+    responsive?:boolean;
   }
 type proyectosProps={
     id:number;
@@ -22,6 +24,7 @@ export const proyectos: proyectosProps[]=[
                 descripcion:"Aplicacion carrito de compras en Desarrollo",
                 href:"https://github.com/SEdwinFBI/carrito-compras-CODECAMP/",
                 tech:"Vite, Boostrap, React js, node js, express js, Material UI, SQL Server, API rest",
+                responsive:true,
             },
         ]
     },
@@ -36,6 +39,7 @@ export const proyectos: proyectosProps[]=[
                 descripcion:"En Desarrollo Sitio web Oficial de Cooperativa Coopenoj R.L.",
                 href:"https://coopenoj.netlify.app/",
                 tech:"React js, TypeSctipt, Material UI, Boostrap, vite",
+                responsive:true,
             }
             ,
             {
@@ -45,6 +49,7 @@ export const proyectos: proyectosProps[]=[
                 descripcion:"Aplicacion para ver Peliculas, con el uso de la api de themoviebd ",
                 href:"https://sedwinfbi.github.io/pelis-prueba/",
                 tech:"Vite, Boostrap, React js, api the moviebd",
+                responsive:true,
             },
             {
                 id:22,
@@ -53,6 +58,7 @@ export const proyectos: proyectosProps[]=[
                 descripcion:"Simulador de carrito de compras(tienda) en desarrollo",
                 href:"https://sedwinfbi.github.io/carrito-de-compras-tienda-/",
                 tech:"Vite, Boostrap, React js, Json de productos",
+                responsive:true,
             },
         ]
     },
@@ -67,6 +73,7 @@ export const proyectos: proyectosProps[]=[
                 descripcion:"API rest con express js y node js, con autenticacion JWT y Roles",
                 tech:"Express js, Node js, Microsoft SQL server",
                 href:"https://github.com/SEdwinFBI/API-codecamp",
+                api:true,
             },
             {
                 id:32,
@@ -75,6 +82,7 @@ export const proyectos: proyectosProps[]=[
               descripcion:"En desarrollo Api Rest",
               tech:"se espera desarrollar con Java & Spring boot",
               href:"#",
+              api:true,
             },
             {
                 id:33,
@@ -83,6 +91,7 @@ export const proyectos: proyectosProps[]=[
               descripcion:"En desarrollo Api Rest",
               tech:"se espera desarrollar ASP.Net",
               href:"#",
+              api:true,
             },
         ]
     },
@@ -98,6 +107,7 @@ export const proyectos: proyectosProps[]=[
                 descripcion:"Sitio oficial de seminaristas proyecto reforestacion 2022",
                 href:"https://green-tree2022.netlify.app/",
                 tech:"HTML5, CSS3, Javascript",
+                responsive:true,
             },
             {
                 id:41,
@@ -106,6 +116,7 @@ export const proyectos: proyectosProps[]=[
                 descripcion:"Pagina web de un estudio de diseño ",
                 href:"https://sedwinfbi.github.io/dise-oygrabaciones/",
                 tech:"HTML5, CSS3, Javascript",
+                responsive:true,
             },
             {
                 id:42,
@@ -138,6 +149,7 @@ export const proyectos: proyectosProps[]=[
                 descripcion:"Calculadora de muestreo Estadistico Proyecto 2022",
                 href:"https://calculadora-muestreo.netlify.app/",
                 tech:"HTML5, CSS3, Javascript",
+                responsive:true,
             },
             
             { 
@@ -146,6 +158,7 @@ export const proyectos: proyectosProps[]=[
                 descripcion:"Este fue una pagina que realize para mi proyecto de emprendimiento - creado a finales de 2022 ",
                 href:"https://stik-lamp.netlify.app/",
                 tech:"HTML5, CSS3",
+
             }
             ,{
                 id:52,
@@ -153,7 +166,8 @@ export const proyectos: proyectosProps[]=[
                 titulo:"Calculadora",
                 descripcion:"Este fue uno de los primer proyectos que realize, fue una calculadora basica pero funcional - creado a mediados de 2022 ",
                 href:"https://edwinbxix.netlify.app/seccion/calculadora",
-                tech:"HTML5, CSS3, JAVASCRIPT"
+                tech:"HTML5, CSS3, JAVASCRIPT",
+                responsive:true,
             },
         ]
     },

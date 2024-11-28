@@ -30,11 +30,14 @@ const Proyectos = () => {
               <article key={item.id}>
                 {/*div */}
                 <Card
+                id={item.id}
                   imagenUrl={item.imagenUrl}
                   titulo={item.titulo}
                   descripcion={item.descripcion}
                   href={item.href}
                   tech={item.tech}
+                  api={item.api}
+                  responsive={item.responsive}
                 />
               </article>
             ))}

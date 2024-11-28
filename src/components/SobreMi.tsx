@@ -1,8 +1,10 @@
 
 import Style from "../App.module.css";
-import ImgSobreMi from "../img/1995515.png";
+//import ImgSobreMi from "../img/1995515.png";
+
 
 const SobreMi = () => {
+  const imgGitHub:string= "https://avatars.githubusercontent.com/u/104693627?v=4";
   return (
     <section id="sobremi" className={Style.section_about}>
       <h2 className={Style.texto_about}>
@@ -10,7 +12,7 @@ const SobreMi = () => {
       </h2>
       <div className={Style.img_about}>
         <div >
-          <img className={Style.img} src={ImgSobreMi} alt="imagen sobre mi" />
+          <img className={Style.img} src={imgGitHub} alt="github avatar" />
         </div>
         <span className={Style.circulo}></span>
       </div>
