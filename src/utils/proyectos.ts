@@ -62,7 +62,7 @@ export const proyectos: proyectosProps[]=[
         proyectosDesarrollados: [
             {
                 id:31,
-                imagenUrl:"https://github.com/SEdwinFBI/API-codecamp/blob/main/src/uploads/products/image.png?raw=true",
+                imagenUrl:"https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8960807/og_image/optimized/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png",
                 titulo:"API para Carrito de compras",
                 descripcion:"API rest con express js y node js, con autenticacion JWT y Roles",
                 tech:"Express js, Node js, Microsoft SQL server",
