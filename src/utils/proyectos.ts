@@ -92,6 +92,14 @@ export const proyectos: proyectosProps[]=[
         title:"Sitios web simples",
         proyectosDesarrollados:[
             {
+                id:44,
+                imagenUrl:"https://cdn.pixabay.com/photo/2023/01/31/15/46/cloudy-day-7758388_1280.jpg",
+                titulo:"Green Tree",
+                descripcion:"Sitio oficial de seminaristas proyecto reforestacion 2022",
+                href:"https://green-tree2022.netlify.app/",
+                tech:"HTML5, CSS3, Javascript",
+            },
+            {
                 id:41,
                 imagenUrl:"https://summa.es/blog/wp-content/uploads/2018/09/iStock-865230556-1280x720.jpg",
                 titulo:"Diseño y Grabacion",
@@ -123,7 +131,14 @@ export const proyectos: proyectosProps[]=[
         id:5,
         title:"varios",
         proyectosDesarrollados:[
-            
+            {
+                id:53,
+                imagenUrl:"https://img.freepik.com/vector-premium/icono-calculadora-parches-insignias-pegatinas-logos-icono-personaje-dibujos-animados-estilo-kawaii-japones_93150-1797.jpg",
+                titulo:"Calculadora Estadistica",
+                descripcion:"Calculadora de muestreo Estadistico Proyecto 2022",
+                href:"https://calculadora-muestreo.netlify.app/",
+                tech:"HTML5, CSS3, Javascript",
+            },
             
             { 
                 id:51,imagenUrl:"https://m.media-amazon.com/images/I/51HrrEbfYWL._AC_SL1500_.jpg",
