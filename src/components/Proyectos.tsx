@@ -20,7 +20,7 @@ const Proyectos = () => {
       <hr />
       <hr />
       {proyectos.map((item) => (
-        <div key={item.id}>
+        <div key={item.id} style={{marginTop:"5rem"}}>
           {/*inicio parte 1*/}
           <h2 className="text-center">{item.title}</h2>
           <hr />
