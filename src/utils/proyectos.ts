@@ -30,6 +30,15 @@ export const proyectos: proyectosProps[]=[
         title:"Proyectos con React (jsx y tsx) y Frameworks CSS",
         proyectosDesarrollados: [
             {
+                id:23,
+                imagenUrl:"https://coopenoj.netlify.app/logo.png",
+                titulo:"Cooperativa Coopenoj",
+                descripcion:"En Desarrollo Sitio web Oficial de Cooperativa Coopenoj R.L.",
+                href:"https://coopenoj.netlify.app/",
+                tech:"React js, TypeSctipt, Material UI, Boostrap, React js",
+            }
+            ,
+            {
                 id:21,
                 imagenUrl:"https://static.vecteezy.com/system/resources/previews/019/045/797/non_2x/owl-graphic-clipart-design-free-png.png",
                 titulo:"Movie MDEE",
