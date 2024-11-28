@@ -1,4 +1,4 @@
-import React from 'react'
+
 import estilo from '../App.module.css';
 
 

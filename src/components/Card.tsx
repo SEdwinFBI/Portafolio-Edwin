@@ -1,4 +1,4 @@
-import React from "react";
+
 import estilos from "../App.module.css";
 interface Props {
 

@@ -1,4 +1,4 @@
-import "../App.module.css";
+
 import estilos from "../App.module.css";
 import { proyectos } from "../utils/proyectos";
 import Card from "./Card";

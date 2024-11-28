@@ -1,4 +1,4 @@
-import React from "react";
+
 import Style from "../App.module.css";
 import ImgSobreMi from "../img/1995515.png";
 
