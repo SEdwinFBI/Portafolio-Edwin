@@ -24,6 +24,9 @@ const NavBar = () => {
               <a className="nav-link" id={style.navDirA} href="#sobremi">Sobre mi</a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" id={style.navDirA} href="#skills">Habilidades</a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" id={style.navDirA} href="#works">Proyectos</a>
             </li>
 

@@ -24,7 +24,7 @@ const Proyectos = () => {
           {/*inicio parte 1*/}
           <h2 className="text-center">{item.title}</h2>
           <hr />
-          <div className="row row-cols-1 row-cols-sm-3 " style={{display:"flex"}}>
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 " style={{display:"flex"}}>
             {/*inicio columnas y filas*/}
             {item.proyectosDesarrollados.map((item) => (
               <article key={item.id}>

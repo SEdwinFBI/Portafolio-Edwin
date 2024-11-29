@@ -1,7 +1,7 @@
 import NavBar from "./components/NavBar";
 //import Contactarme from "./components/Contactarme";
 import Inicio from "./components/Inicio";
-//import Habilidades from "./components/Habilidades";
+import Habilidades from "./components/Habilidades";
 import Proyectos from "./components/Proyectos";
 import SobreMi from "./components/SobreMi";
 //import Style from './App.module.css';
@@ -21,7 +21,7 @@ function App() {
         <Inicio />
        
         <SobreMi />
-        {/* <Habilidades />*/}
+         <Habilidades />
         <Proyectos />
         {/*<Contactarme />*/}
       </div> {/*fin Cuerpo*/}

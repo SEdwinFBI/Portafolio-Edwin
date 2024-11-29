@@ -13,6 +13,18 @@ type proyectosProps={
     title:string;
     proyectosDesarrollados: proyecto[];
 }
+interface skill{
+    id:number;
+    title:string;
+    imagenUrl:string;
+
+    
+}
+type skills ={
+    id:number;
+    title:string;
+    skill:skill[];
+}
 
 export const proyectos: proyectosProps[]=[
     {   id:1,
@@ -172,4 +184,160 @@ export const proyectos: proyectosProps[]=[
         ]
     },
     
+]
+export const skills:skills[] =[
+    {
+        id:1,
+        title: "Lenguajes de Programacion",
+        skill:[
+            {
+                id:11,
+                title:"TypeScript",
+                imagenUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+            },
+            {
+                id: 12,
+                title: "Javascript",
+                imagenUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuDfD2gx7wmqJ4Y4mWe3JTDU80Rg5URtdoqQ&s",
+            },
+            {
+                id:13,
+                title: "Java SE",
+                imagenUrl:"https://logowik.com/content/uploads/images/731_java.jpg",
+
+            },
+            {
+                id:14,
+                title:"Node js",
+                imagenUrl:"https://seekvectors.com/files/download/40a750173673c890d7e081387b76469d.jpg",
+            },
+            {
+                id:15,
+                title:"Python",
+                imagenUrl:"https://i.pinimg.com/originals/82/a2/18/82a2188c985ce75402ae44fc43fe7e5e.png",
+            },
+            {
+                id:16,
+                title:"C#",
+                imagenUrl:"https://i.ytimg.com/vi/nzgAI7OY_uU/sddefault.jpg",
+
+            },
+            
+        ]
+    },
+    {
+        id:2,
+        title:"Frameworks Frond end y Herramientas",
+        skill:[
+            {
+                id:21,
+                title:"React js",
+                imagenUrl:"https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+            },
+            {
+                id:22,
+                title:"Boostrap",
+                imagenUrl:"https://colorlib.com/wp/wp-content/uploads/sites/2/best-bootstrap-wordpress-themes.jpg"
+            },
+            {
+                id:23,
+                title:"Material UI",
+                imagenUrl:"https://pbs.twimg.com/profile_images/1438268853079904265/JUtTwrBC_400x400.jpg"
+            },
+            {
+                id:24,
+                title:"Vite js",
+                imagenUrl:"https://miro.medium.com/v2/resize:fit:700/0*1xJfIKRGfyFff8ok.png",
+            }
+        ]
+    },
+    {
+        id:3,
+        title:"Frameworks Back end y herramientas",
+        skill:[
+            {
+                id:31,
+                title:"Express js",
+                imagenUrl:"https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png"
+            },
+            {
+                id:32,
+                title:".Net",
+                imagenUrl:"https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg"
+            },
+            {
+                id:33,
+                title:"JWT",
+                imagenUrl:"https://user-images.githubusercontent.com/5418178/177059352-fe91dcd5-e17b-4103-88ae-70d6d396cf85.png"
+            },
+            {
+                id:34,
+                title:"Sequelize",
+                imagenUrl:"https://logowik.com/content/uploads/images/sequelize.jpg"
+
+            }
+        ]
+        
+
+    },
+    {
+        id:4,
+        title:"Bases de Datos",
+        skill:[
+            {
+                id:41,
+                title:"MySQL",
+                imagenUrl:"https://i.pinimg.com/originals/09/7b/34/097b349ab1d78c15744c3a89ff457939.png"
+            },
+            {
+                id:42,
+                title:"SQL Server",
+                imagenUrl:"https://logowik.com/content/uploads/images/microsoft-sql-server4529.jpg"
+            },
+            {
+                id:43,
+                title:"Acces SQL",
+                imagenUrl:"https://download.logo.wine/logo/Microsoft_Access/Microsoft_Access-Logo.wine.png"
+            },
+
+        ]
+    },
+    {
+        id:5,
+        title:"Herramientas de Desarrollo",
+        skill:[
+            {
+                id:51,
+                title:"Git",
+                imagenUrl:"https://git-scm.com/images/logos/logomark-orange@2x.png"
+            },
+            
+                {
+                    id:52,
+                    title:"GitHub",
+                    imagenUrl:"https://img.icons8.com/ios_filled/512/github.png"
+                },
+                {
+                    id:53,
+                    title:"Visual Studio Code",
+                    imagenUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiJNnjZv36ijogi3aM_xcSMy26_QeOWrVmJQ&s"
+                },
+                {
+                    id:54,
+                    title:"Visual Studio",
+                    imagenUrl:"https://1000marcas.net/wp-content/uploads/2020/12/Visual-Studio-Logo.jpg"
+                },
+                {
+                    id:55,
+                    title:"Intellij IDEA",
+                    imagenUrl:"https://dwglogo.com/wp-content/uploads/2017/11/IntelliJ_IDEA_logo_01.png"
+                },
+                {
+                    id:56,
+                    title:"Postman",
+                    imagenUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJdsaOH3LxJisOtkMCdTpqEn-HJmauzZl68A&s"
+                }
+        ]
+    }
+
 ]
