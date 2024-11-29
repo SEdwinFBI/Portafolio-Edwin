@@ -5,7 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const Inicio = () => {
   return (
     <section id="hero" className={Style.section_hero}>
-      <div className={Style.hero_contenido}>
+      <div className={Style.hero_contenido} >
         <h1>
           Hola, soy
           <br />
@@ -20,13 +20,13 @@ const Inicio = () => {
           Estudiante de Ingenieria en Sistemas de Informacion y Ciencias de la
           Computacion
         </p>
-        <div className={Style.btn}>
+        <div className={Style.btn} >
           <a
             className="col"
             href="https://drive.google.com/file/d/18zUyAzuVnINAQIwNj4Ta2Nx08obqeEhy/view?usp=sharing"
             target="blank"
           >
-            <button className={Style.btn}>Descargar CV</button>
+            <button className={Style.btn} style={{width:"65px"}}>CV </button>
           </a>
 
           <a
