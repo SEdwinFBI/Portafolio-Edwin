@@ -44,6 +44,24 @@ export const proyectos: proyectosProps[]=[
         id:2,
         title:"Proyectos con React (jsx y tsx) y Frameworks CSS",
         proyectosDesarrollados: [
+                        {
+                id:25,
+                imagenUrl:"https://tecscience.tec.mx/es/wp-content/uploads/sites/8/2022/05/tiro-parabolico.png",
+                titulo:"Trajecto",
+                descripcion:"Simulador de movimiento parabolico, tiro vertical y MRU",
+                href:"https://trajecto.netlify.app/",
+                tech:"React Router v7, TypeSctipt, Tailwind css, vite",
+                responsive:true,
+            },
+            {
+                id:24,
+                imagenUrl:"https://s3.us-west-2.amazonaws.com/sgs.pressable-guitarguys/wp-content/uploads/2020/11/25140810/small_logo.png",
+                titulo:"Carrito de compras Guitar Guys!",
+                descripcion:"Carrito de compras",
+                href:"https://sedwinfbi.github.io/shop-guitars/",
+                tech:"React js, TypeSctipt, Tailwind css, vite",
+                responsive:true,
+            },
             {
                 id:23,
                 imagenUrl:"https://scontent.fgua6-2.fna.fbcdn.net/v/t39.30808-6/415487599_1095224225011074_2893497106584418821_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=E0piObxJtbIQ7kNvgEassu5&_nc_zt=23&_nc_ht=scontent.fgua6-2.fna&_nc_gid=Asnagcfo0PPaVZZ0ypNYKIy&oh=00_AYAZ1i7dj8dkTKzjDUOLyvcleh1ZH2WT_CbN4-gIIKQ3kA&oe=674EBA3C",
