@@ -123,6 +123,15 @@ export const proyectos: proyectosProps[]=[
               href:"#",
               api:true,
             },
+            {
+                id:34,
+                imagenUrl:"https://learn.microsoft.com/training/achievements/aspnet-core-minimal-api-social.png",
+              titulo:"API para la aplicacion de Educate",
+              descripcion:"API Rest para el proyecto de gestion educatil",
+              tech:"Net 8, Entity Framework, Azhure SQL",
+              href:"http://educate.runasp.net/swagger/index.html",
+              api:true,
+            },
         ]
     },
     
