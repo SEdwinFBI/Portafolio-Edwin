@@ -1,3 +1,4 @@
+
 export interface proyecto {
     id: number;
     imagenUrl: string;
@@ -76,7 +77,7 @@ export const proyectos: proyectosProps[] = [
             },
             {
                 id: 23,
-                imagenUrl: "../assets/img/coopenoj.png",
+                imagenUrl: "/assets/img/coopenoj.png",
                 titulo: "Cooperativa Coopenoj",
                 descripcion: "En Desarrollo Sitio web Oficial de Cooperativa Coopenoj R.L.",
                 href: "https://coopenoj.netlify.app/",
@@ -183,7 +184,7 @@ export const proyectos: proyectosProps[] = [
             },
             {
                 id: 43,
-                imagenUrl: "../assets/img/programaya.png",
+                imagenUrl: "/assets/img/programaya.png",
                 titulo: "Programa Ya!",
                 descripcion: "Sitio web sobre servicios de programadores. -No Responsivo",
                 href: "https://sedwinfbi.github.io/programaya/",
