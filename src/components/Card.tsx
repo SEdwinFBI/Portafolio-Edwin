@@ -39,7 +39,7 @@ const Card: React.FC<Props> = ({
           <img src={imagenUrl} className="" alt={titulo} style={{objectFit:"cover",height: '18rem',
               width: '100%',}} />
           {
-            dev && <img src="src/assets/img/dev.png" alt="" className="position-absolute z-1 " style={{
+            dev && <img src="/assets/img/dev.png" alt="" className="position-absolute z-1 " style={{
               top: '50%',
               left: '50%',
               transform: 'translate(-50%, -50%)',
