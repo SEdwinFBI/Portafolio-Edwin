@@ -4,7 +4,7 @@ import Style from "../App.module.css";
 
 
 const SobreMi = () => {
-  const imgGitHub:string= "https://avatars.githubusercontent.com/u/104693627?v=4";
+  const imgGitHub: string = "https://avatars.githubusercontent.com/u/104693627?v=4";
   return (
     <section id="sobremi" className={Style.section_about}>
       <h2 className={Style.texto_about}>
@@ -20,14 +20,14 @@ const SobreMi = () => {
         <h3>Desarrollador de Software</h3>
         <p className="container">
           {" "}
-          Soy un estudiante de Ing. en sistemas y ciencias de la computacion,
-          desde que tengo memoria siempre me ha gustado todo sobre informatica.
-          Soy alguien autodidacta, eh venido aprendiendo y haciendo proyectos
-          desde 2022, capacitando me en plataformas como Intecap Udemy, Platzi y
-          En el programa de Oracle Next Education, tengo la capacidad de
-          aprender rapido y actualmente busco la primera oportunidad para
-          desarrollarme en este area, no cuento con mucha experiencia pero si
-          con una gran pasion por programacion.
+          Soy Edwin Baquiax, estudiante de Ingeniería en Sistemas y Ciencias de la Computación con una experiencia práctica en el desarrollo de soluciones empresariales de extremo a extremo.
+          <br />
+          <br />
+          Desde joven me apasiona la tecnología, tengo pasión en el aprendizaje autodidacta y el desarrollo de proyectos.
+          <br /><br />
+          Actualmente participo activamente en el diseño, desarrollo, despliegue y mejora de sistemas, tanto modernos como legados, aplicando buenas prácticas como Clean Code y principios SOLID. He trabajado en proyectos que abarcan desde aplicaciones monolíticas hasta arquitecturas distribuidas, implementando soluciones eficientes, seguras y orientadas al usuario.
+
+
         </p>
       </div>
     </section>

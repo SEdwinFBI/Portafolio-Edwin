@@ -7,6 +7,7 @@ export interface proyecto {
     href: string;
     api?: boolean;
     responsive?: boolean;
+    dev?:boolean;
 }
 type proyectosProps = {
     id: number;
@@ -27,24 +28,24 @@ type skills = {
 }
 
 export const proyectos: proyectosProps[] = [
-    {
-        id: 1,
-        title: "Proyectos Full Stack",
-        proyectosDesarrollados: [
-            {
-                id: 11,
-                imagenUrl: "https://github.com/SEdwinFBI/carrito-compras-CODECAMP/blob/main/public/screenshots/vistaP.png?raw=true",
-                titulo: "Carrito de compras Full stack",
-                descripcion: "Aplicacion carrito de compras en Desarrollo",
-                href: "https://github.com/SEdwinFBI/carrito-compras-CODECAMP/",
-                tech: "Vite, Boostrap, React js, node js, express js, Material UI, SQL Server, API rest",
-                responsive: true,
-            },
-        ]
-    },
+    // {
+    //     id: 1,
+    //     title: "Proyectos Full Stack",
+    //     proyectosDesarrollados: [
+    //         {
+    //             id: 11,
+    //             imagenUrl: "https://github.com/SEdwinFBI/carrito-compras-CODECAMP/blob/main/public/screenshots/vistaP.png?raw=true",
+    //             titulo: "Carrito de compras Full stack",
+    //             descripcion: "Aplicacion carrito de compras en Desarrollo",
+    //             href: "https://github.com/SEdwinFBI/carrito-compras-CODECAMP/",
+    //             tech: "Vite, Boostrap, React js, node js, express js, Material UI, SQL Server, API rest",
+    //             responsive: true,
+    //         },
+    //     ]
+    // },
     {
         id: 2,
-        title: "Proyectos con React (jsx y tsx) y Frameworks CSS",
+        title: "FrontEnd React (Javascript y TypeScript) y Frameworks CSS",
         proyectosDesarrollados: [
             {
                 id: 25,
@@ -53,6 +54,15 @@ export const proyectos: proyectosProps[] = [
                 descripcion: "Simulador de movimiento parabolico, tiro vertical y MRU",
                 href: "https://trajecto.netlify.app/",
                 tech: "React Router v7, TypeSctipt, Tailwind css, vite",
+                responsive: true,
+            },
+            {
+                id: 11,
+                imagenUrl: "https://github.com/SEdwinFBI/carrito-compras-CODECAMP/blob/main/public/screenshots/vistaP.png?raw=true",
+                titulo: "Carrito de compras",
+                descripcion: "Plataforma e-commerce full stack con login por roles, carrito, dashboard de administrador y operaciones CRUD.",
+                href: "https://github.com/SEdwinFBI/carrito-compras-CODECAMP/",
+                tech: "Vite, Boostrap, React js, node js, express js, Material UI, SQL Server, API rest",
                 responsive: true,
             },
             {
@@ -66,12 +76,13 @@ export const proyectos: proyectosProps[] = [
             },
             {
                 id: 23,
-                imagenUrl: "https://scontent.fgua6-2.fna.fbcdn.net/v/t39.30808-6/415487599_1095224225011074_2893497106584418821_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=E0piObxJtbIQ7kNvgEassu5&_nc_zt=23&_nc_ht=scontent.fgua6-2.fna&_nc_gid=Asnagcfo0PPaVZZ0ypNYKIy&oh=00_AYAZ1i7dj8dkTKzjDUOLyvcleh1ZH2WT_CbN4-gIIKQ3kA&oe=674EBA3C",
+                imagenUrl: "src/assets/img/coopenoj.png",
                 titulo: "Cooperativa Coopenoj",
                 descripcion: "En Desarrollo Sitio web Oficial de Cooperativa Coopenoj R.L.",
                 href: "https://coopenoj.netlify.app/",
                 tech: "React js, TypeSctipt, Material UI, Boostrap, vite",
                 responsive: true,
+                dev:true,
             }
             ,
             {
@@ -82,22 +93,24 @@ export const proyectos: proyectosProps[] = [
                 href: "https://sedwinfbi.github.io/pelis-prueba/",
                 tech: "Vite, Boostrap, React js, api the moviebd",
                 responsive: true,
+             
             },
-            {
-                id: 22,
-                imagenUrl: "https://res.cloudinary.com/dte7upwcr/image/upload/v1/blog/blog2/carrito-de-compras-ecommerce/carrito-de-compras-ecommerce-img_header.jpg",
-                titulo: "Carrito de compras",
-                descripcion: "Simulador de carrito de compras(tienda) en desarrollo",
-                href: "https://sedwinfbi.github.io/carrito-de-compras-tienda-/",
-                tech: "Vite, Boostrap, React js, Json de productos",
-                responsive: true,
-            },
+           
         ]
     },
     {
         id: 3,
         title: "Back end (APIs)",
         proyectosDesarrollados: [
+            {
+                id: 34,
+                imagenUrl: "https://learn.microsoft.com/training/achievements/aspnet-core-minimal-api-social.png",
+                titulo: "API para la Plataforma de Educate",
+                descripcion: "API diseñada para soportar la plataforma Educate, proyecto de Universidad",
+                tech: "Net 8, Entity Framework, Azure SQL",
+                href: "http://educate.runasp.net/swagger/index.html",
+                api: true,
+            },
             {
                 id: 31,
                 imagenUrl: "https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8960807/og_image/optimized/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png",
@@ -125,22 +138,23 @@ export const proyectos: proyectosProps[] = [
                 href: "#",
                 api: true,
             },
-            {
-                id: 34,
-                imagenUrl: "https://learn.microsoft.com/training/achievements/aspnet-core-minimal-api-social.png",
-                titulo: "API para la aplicacion de Educate",
-                descripcion: "API Rest para el proyecto de gestion educatil",
-                tech: "Net 8, Entity Framework, Azhure SQL",
-                href: "http://educate.runasp.net/swagger/index.html",
-                api: true,
-            },
+
         ]
     },
 
     {
         id: 4,
-        title: "Sitios web simples",
+        title: "Archivo creativo",
         proyectosDesarrollados: [
+             {
+                id: 22,
+                imagenUrl: "https://res.cloudinary.com/dte7upwcr/image/upload/v1/blog/blog2/carrito-de-compras-ecommerce/carrito-de-compras-ecommerce-img_header.jpg",
+                titulo: "Carrito de compras",
+                descripcion: "Simulador de carrito de compras(tienda) en desarrollo",
+                href: "https://sedwinfbi.github.io/carrito-de-compras-tienda-/",
+                tech: "Vite, Boostrap, React js, Json de productos",
+                responsive: true,
+            },
             {
                 id: 44,
                 imagenUrl: "https://cdn.pixabay.com/photo/2023/01/31/15/46/cloudy-day-7758388_1280.jpg",
@@ -169,23 +183,16 @@ export const proyectos: proyectosProps[] = [
             },
             {
                 id: 43,
-                imagenUrl: "https://www.grupodigital.eu/blog/wp-content/uploads/2019/11/gamer-decorative-illustration-flat-design_23-2148250394-e1574340136197.jpg",
+                imagenUrl: "src/assets/img/programaya.png",
                 titulo: "Programa Ya!",
                 descripcion: "Sitio web sobre servicios de programadores. -No Responsivo",
                 href: "https://sedwinfbi.github.io/programaya/",
                 tech: "HTML5, CSS3"
             },
-
-
-        ]
-    },
-    {
-        id: 5,
-        title: "varios",
-        proyectosDesarrollados: [
+            
             {
                 id: 53,
-                imagenUrl: "https://img.freepik.com/vector-premium/icono-calculadora-parches-insignias-pegatinas-logos-icono-personaje-dibujos-animados-estilo-kawaii-japones_93150-1797.jpg",
+                imagenUrl: "https://cdn-icons-png.freepik.com/512/5618/5618061.png",
                 titulo: "Calculadora Estadistica",
                 descripcion: "Calculadora de muestreo Estadistico Proyecto 2022",
                 href: "https://calculadora-muestreo.netlify.app/",
@@ -203,14 +210,22 @@ export const proyectos: proyectosProps[] = [
             }
             , {
                 id: 52,
-                imagenUrl: "https://cdn5.dibujos.net/dibujos/pintados/201603/calculadora-solar-colegio-10377919.jpg",
+                imagenUrl: "https://img.freepik.com/vector-premium/icono-calculadora-parches-insignias-pegatinas-logos-icono-personaje-dibujos-animados-estilo-kawaii-japones_93150-1797.jpg",
                 titulo: "Calculadora",
                 descripcion: "Este fue uno de los primer proyectos que realize, fue una calculadora basica pero funcional - creado a mediados de 2022 ",
                 href: "https://edwinbxix.netlify.app/seccion/calculadora",
                 tech: "HTML5, CSS3, JAVASCRIPT",
                 responsive: true,
             },
+        
+
+
         ]
+    },
+    {
+        id: 5,
+        title: "varios",
+        proyectosDesarrollados: []
     },
 
 ]
@@ -373,7 +388,7 @@ export const skills: skills[] = [
                 title: "Bash",
                 imagenUrl: "https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5hhrcbgvutmdmducqkek.png"
             },
-           
+
         ]
     },
     {

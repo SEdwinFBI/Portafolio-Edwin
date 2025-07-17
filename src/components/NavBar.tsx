@@ -1,6 +1,6 @@
 
 import style from '../App.module.css'
-import logo from "../assets/Logo/Logo_circle.png"
+import logo from "../assets/Logo/Logo_circle30.png"
 
 
 const NavBar = () => {

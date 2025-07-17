@@ -10,6 +10,7 @@ const Proyectos = () => {
       
       <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
         <h1 className="text-center">Portafolio de proyectos </h1>
+        <h4>Proyectos Realizados en mis Tiempos libres por hobby</h4>
         <DotLottieReact
                 src="https://lottie.host/79871f47-02e6-426a-8311-d34329f39427/F2g4MV0t5w.lottie"
                 loop
@@ -38,6 +39,7 @@ const Proyectos = () => {
                   tech={item.tech}
                   api={item.api}
                   responsive={item.responsive}
+                  dev={item.dev}
                 />
               </article>
             ))}
