@@ -223,11 +223,7 @@ export const proyectos: proyectosProps[] = [
 
         ]
     },
-    {
-        id: 5,
-        title: "varios",
-        proyectosDesarrollados: []
-    },
+    
 
 ]
 export const skills: skills[] = [
